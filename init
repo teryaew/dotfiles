@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export DOTFILES=$HOME/.dotfiles
+
+ln -s $DOTFILES/.gitignore   $HOME/.gitignore
+ln -s $DOTFILES/.gitconfig   $HOME/.gitconfig
+ln -s $DOTFILES/.npmrc       $HOME/.npmrc
+ln -s $DOTFILES/.zshrc       $HOME/.zshrc

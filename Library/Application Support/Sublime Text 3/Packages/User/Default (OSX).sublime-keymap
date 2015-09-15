@@ -1,0 +1,11 @@
+[
+    { "keys": ["super+shift+l"], "command": "refresh_folder_list" }, // Refresh dirs & files list in sidebar
+    { "keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }, // Open directory with current file
+    { "keys": ["super+v"], "command": "paste_and_indent" }, // Now cmd+v paste text with formatting
+    { "keys": ["super+shift+v"], "command": "paste" }, // Previous text paste behavior (without formatting)
+    { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 20.0} }, // for faster scrolling from keyboard
+    { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -20.0} },
+    { "keys": ["alt+space"], "command": "expand_tabs" }, // convert indentation to spaces
+    { "keys": ["super+shift+r"],  "command": "reindent" }, // auto indenting
+    { "keys": ["alt+s"], "command": "focus_side_bar" } // focus on sidebar
+]

@@ -3,4 +3,13 @@
 ._*
 
 # Node.JS
+node_modules
+bower_components
 npm-debug.log
+lib-cov
+
+# Text editors
+*.sublime-project
+*.sublime-workspace
+*.sw[nop]
+*.vi

@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+shift+[",
+        "command": "workbench.files.action.openPreviousWorkingFile"
+    },
+    {
+        "key": "cmd+shift+]",
+        "command": "workbench.files.action.openNextWorkingFile"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.files.action.closeFile"
+    }
+]

@@ -1,6 +1,7 @@
-# OS X
+# System
 .DS_Store
 ._*
+*~
 
 # Node.JS
 node_modules
@@ -13,3 +14,4 @@ lib-cov
 *.sublime-workspace
 *.sw[nop]
 *.vi
+.idea

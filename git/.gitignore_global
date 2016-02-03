@@ -3,7 +3,7 @@
 ._*
 *~
 
-# Node.JS
+# Node.js
 node_modules
 bower_components
 npm-debug.log
@@ -15,3 +15,7 @@ lib-cov
 *.sw[nop]
 *.vi
 .idea
+.vscode
+
+# Ruby
+.capistrano

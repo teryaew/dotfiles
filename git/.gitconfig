@@ -2,7 +2,7 @@
   name = Mitya Teryaew
   email = mitya.teryaew@gmail.com
 [github]
-  user = webpro
+  user = teryaew
 [credential]
   helper = osxkeychain
 [help]
@@ -12,24 +12,16 @@
 [push]
   default = simple
 [color]
-  # Colour terminal command output when possible.
-  ui = auto
+  ui = true
 [diff]
   # Use the OS X graphical three-way merge tool for graphical diffs.
   tool = opendiff
   # Use the slower but better patience diff algorithm.
   algorithm = patience
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [gc]
   auto = 0
-[filter "media"]
-  required = true
-  clean = git media clean %f
-  smudge = git media smudge %f
-[filter "hawser"]
-  clean = git hawser clean %f
-  smudge = git hawser smudge %f
-  required = true
-[filter "lfs"]
-  clean = git lfs clean %f
-  smudge = git lfs smudge %f
-  required = true

@@ -29,7 +29,3 @@ alias bembundle="bem create -l src/bundles -b"
 
 alias pgs="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pgq="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-
-# User configuration
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/teryaem/db/mongodb/bin:/usr/local/etc/woff2:/Users/teryaem/.composer/vendor/bin"
-# export MANPATH="/usr/local/man:$MANPATH"

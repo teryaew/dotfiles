@@ -12,22 +12,20 @@ EXTRA_DIR="$HOME/.extra"
 
 # Bunch of symlinks
 
+ln -sfv "$DOTFILES_DIR/runcom/.zprofile" ~
+ln -sfv "$DOTFILES_DIR/runcom/.zshrc" ~
+ln -sfv "$DOTFILES_DIR/runcom/.npmrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
 # Package managers & packages
 
 . "$DOTFILES_DIR/install/brew.sh"
-. "$DOTFILES_DIR/install/bash.sh"
+. "$DOTFILES_DIR/install/zsh.sh"
+. "$DOTFILES_DIR/install/gem.sh"
 . "$DOTFILES_DIR/install/npm.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
     . "$DOTFILES_DIR/install/brew-cask.sh"
     # ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
-fi
-
-# Install extra stuff
-
-if [ -d "$EXTRA_DIR" -a -f "$EXTRA_DIR/install.sh" ]; then
-    . "$EXTRA_DIR/install.sh"
 fi

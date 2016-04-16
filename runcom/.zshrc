@@ -13,19 +13,3 @@ ZSH_THEME="robbyrussell"
 plugins=(git osx ruby rails node npm bower brew sublime)
 
 source $ZSH/oh-my-zsh.sh
-
-# Aliases
-alias o="open ."
-
-alias g=git
-compdef g=git
-alias gacm="git add -A && git commit -m"
-alias gcb="git checkout -b"
-alias gfc="git fetch && git checkout"
-alias gspsp="git stash && git pull && git stash pop"
-
-alias bembl="bem create -l src/blocks/desktop.blocks -b"
-alias bembundle="bem create -l src/bundles -b"
-
-alias pgs="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias pgq="pg_ctl -D /usr/local/var/postgres stop -s -m fast"

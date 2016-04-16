@@ -9,6 +9,8 @@
   autocorrect = 1
 [core]
   editor = vim
+[pull]
+  rebase = true
 [push]
   default = simple
 [color]

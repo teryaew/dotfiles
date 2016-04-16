@@ -14,7 +14,7 @@ Project structure & installation scripts based mostly on [WebPro's dotfiles](htt
     * [nvm](https://github.com/creationix/nvm)
     * [rvm](https://rvm.io/)
 * Graphics: [ffmpeg](https://www.ffmpeg.org), [gifsicle](http://www.lcdf.org/gifsicle), [imagemagick](http://www.imagemagick.org), [svgo](https://github.com/svg/svgo)
-* OS X: [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
+* OS X: [Mackup](https://github.com/lra/mackup), [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 * [OS X apps](https://github.com/teryaew/dotfiles/blob/master/install/brew-cask.sh)
 
 ## Install

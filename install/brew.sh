@@ -25,7 +25,6 @@ apps=(
     python
     shellcheck
     ssh-copy-id
-    svn
     tree
     ttfautohint
     vim

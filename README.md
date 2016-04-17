@@ -54,3 +54,9 @@ Or, using wget:
        update             Update packages and pkg managers: OS X Applications, Homebrew/Cask, npm, Ruby, and pip
        osx                Apply OS X system defaults
        dock               Apply OS X Dock settings
+
+## Sublime Text 3 tuning
+
+1. Install [Package Control](https://packagecontrol.io/)
+2. Press `Cmd Shift P`, find and enter `Package Control: Advanced Install Package`
+3. Paste those list of packages: `All Autocomplete, AutoFileName, Babel, Hayaku, JavaScript Snippets, MacTerminal, Material Theme, Nodejs, SideBarEnhancements, Stylus, SublimeLinter, SublimeLinter-contrib-eslint`

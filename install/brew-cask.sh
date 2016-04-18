@@ -24,6 +24,7 @@ apps=(
     slack
     sourcetree
     sublime-text3
+    the-unarchiver
     transmission
     virtualbox
     visual-studio-code

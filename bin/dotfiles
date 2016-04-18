@@ -23,7 +23,7 @@ sub_edit () {
 }
 
 sub_reload () {
-    . ~/.bash_profile && echo "Bash reloaded."
+    . ~/.zprofile && echo "Zsh reloaded."
 }
 
 sub_test () {

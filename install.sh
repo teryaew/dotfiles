@@ -11,10 +11,12 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Bunch of symlinks
 
+ln -sfv "$DOTFILES_DIR/runcom/.gemrc" ~
+ln -sfv "$DOTFILES_DIR/runcom/.npmrc" ~
+ln -sfv "$DOTFILES_DIR/runcom/.rvmrc" ~
+ln -sfv "$DOTFILES_DIR/runcom/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.zprofile" ~
 ln -sfv "$DOTFILES_DIR/runcom/.zshrc" ~
-ln -sfv "$DOTFILES_DIR/runcom/.npmrc" ~
-ln -sfv "$DOTFILES_DIR/runcom/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/etc/.editorconfig" ~

@@ -12,6 +12,7 @@ brew upgrade
 apps=(
     battery
     dockutil
+    elasticsearch
     elixir
     erlang
     ffmpeg
@@ -32,6 +33,8 @@ apps=(
     wget
 )
 
+# Pre-install java
+brew install Caskroom/cask/java
 brew install "${apps[@]}"
 
 # Git comes with diff-highlight, but isn't in the PATH

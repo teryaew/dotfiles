@@ -11,6 +11,7 @@ brew upgrade
 
 apps=(
     battery
+    coreutils
     dockutil
     elasticsearch
     elixir

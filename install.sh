@@ -27,6 +27,7 @@ ln -sfv "$DOTFILES_DIR/etc/.editorconfig" ~
 . "$DOTFILES_DIR/install/zsh.sh"
 . "$DOTFILES_DIR/install/gem.sh"
 . "$DOTFILES_DIR/install/npm.sh"
+. "$DOTFILES_DIR/install/elasticsearch.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
     . "$DOTFILES_DIR/install/brew-cask.sh"

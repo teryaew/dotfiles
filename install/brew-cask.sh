@@ -23,7 +23,7 @@ apps=(
     skype
     slack
     sourcetree
-    sublime-text3
+    sublime-text
     the-unarchiver
     transmission
     virtualbox

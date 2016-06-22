@@ -60,3 +60,10 @@ Or, using wget:
 1. Install [Package Control](https://packagecontrol.io/)
 2. Press `Cmd Shift P`, find and enter `Package Control: Advanced Install Package`
 3. Packages to install (Comma-separated): `All Autocomplete, AutoFileName, Babel, Hayaku - tools for writing CSS faster, JavaScript Snippets, MacTerminal, Material Theme, Nodejs, SideBarEnhancements, Stylus, SublimeLinter, SublimeLinter-contrib-eslint, Syntax Highlighting for PostCSS`
+
+
+## Mackup
+
+Restore shareable settings for ST3, SourceTree, etc... with `mackup`:
+
+    mackup restore

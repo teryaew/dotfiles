@@ -19,3 +19,6 @@ lib-cov
 
 # Ruby
 .capistrano
+
+# AWS
+awscli-bundle*

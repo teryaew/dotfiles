@@ -67,3 +67,7 @@ Or, using wget:
 Restore shareable settings for ST3, SourceTree, etc... with `mackup`:
 
     mackup restore
+
+## Install from third-party websites:
+
+* Endpoint Security VPN

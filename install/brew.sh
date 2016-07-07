@@ -26,7 +26,6 @@ apps=(
     peco
     psgrep
     python
-    sequel-pro
     shellcheck
     ssh-copy-id
     tree

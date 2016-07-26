@@ -25,6 +25,7 @@ apps=(
     slack
     sourcetree
     sublime-text
+    telegram
     the-unarchiver
     transmission
     virtualbox

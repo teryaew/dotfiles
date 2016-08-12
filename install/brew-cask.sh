@@ -17,6 +17,7 @@ apps=(
     google-drive
     iterm2
     ivpn
+    ngrok
     opera
     screenflow
     sequel-pro

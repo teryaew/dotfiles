@@ -22,6 +22,7 @@ apps=(
     httpie
     imagemagick
     mackup
+    mc
     mysql
     peco
     psgrep

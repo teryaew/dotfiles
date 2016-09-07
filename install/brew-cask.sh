@@ -19,7 +19,6 @@ apps=(
     ivpn
     ngrok
     opera
-    screenflow
     sequel-pro
     sketch
     skype
@@ -30,7 +29,6 @@ apps=(
     the-unarchiver
     transmission
     virtualbox
-    visual-studio-code
     vlc
 )
 

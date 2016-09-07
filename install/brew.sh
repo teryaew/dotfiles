@@ -11,6 +11,7 @@ brew upgrade
 
 apps=(
     battery
+    bramstein/webfonttools/woff2
     coreutils
     dockutil
     elasticsearch
@@ -18,6 +19,7 @@ apps=(
     erlang
     ffmpeg
     fontforge
+    gifsicle
     git
     httpie
     imagemagick
@@ -25,6 +27,7 @@ apps=(
     mc
     mysql
     peco
+    phantomjs
     psgrep
     python
     shellcheck

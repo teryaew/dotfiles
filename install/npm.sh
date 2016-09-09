@@ -15,6 +15,7 @@ nvm alias default stable
 
 packages=(
     enb
+    http-server
     speed-test
     svgo
     webpack

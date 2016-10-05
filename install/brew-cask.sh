@@ -24,6 +24,7 @@ apps=(
     skype
     slack
     sourcetree
+    sqlitebrowser
     sublime-text
     telegram
     the-unarchiver

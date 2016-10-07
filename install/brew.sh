@@ -34,6 +34,7 @@ apps=(
     tree
     ttfautohint
     vim
+    watchman
     wget
 )
 

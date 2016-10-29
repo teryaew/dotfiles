@@ -27,6 +27,7 @@ apps=(
     mc
     mysql
     peco
+    phantomjs
     psgrep
     python
     shellcheck

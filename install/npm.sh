@@ -19,6 +19,7 @@ packages=(
     speed-test
     svgo
     webpack
+    yarn
 )
 
 npm install -g "${packages[@]}"

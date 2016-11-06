@@ -28,6 +28,7 @@ apps=(
     sublime-text
     telegram
     the-unarchiver
+    torbrowser
     transmission
     virtualbox
     vlc

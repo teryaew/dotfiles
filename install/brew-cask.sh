@@ -15,6 +15,7 @@ apps=(
     google-chrome
     google-chrome-canary
     google-drive
+    imageoptim
     iterm2
     ivpn
     ngrok

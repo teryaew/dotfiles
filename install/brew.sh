@@ -24,6 +24,7 @@ apps=(
     httpie
     imagemagick
     mackup
+    maven
     mc
     mysql
     peco

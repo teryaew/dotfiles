@@ -21,6 +21,7 @@ apps=(
     fontforge
     gifsicle
     git
+    htop
     httpie
     imagemagick
     mackup

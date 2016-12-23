@@ -40,6 +40,7 @@ apps=(
     vim
     watchman
     wget
+    yarn
 )
 
 # Pre-install java

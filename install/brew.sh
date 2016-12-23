@@ -24,6 +24,7 @@ apps=(
     htop
     httpie
     imagemagick
+    jq
     mackup
     maven
     mc

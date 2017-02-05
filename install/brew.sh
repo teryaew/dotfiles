@@ -33,6 +33,7 @@ apps=(
     phantomjs
     psgrep
     python
+    python3
     shellcheck
     ssh-copy-id
     tree

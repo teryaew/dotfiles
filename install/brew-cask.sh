@@ -9,6 +9,7 @@ brew tap caskroom/versions
 apps=(
     android-studio
     appcleaner
+    atom
     dropbox
     firefox
     flux

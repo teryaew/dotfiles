@@ -10,6 +10,7 @@ apps=(
     android-studio
     appcleaner
     atom
+    dash
     dropbox
     firefox
     flux

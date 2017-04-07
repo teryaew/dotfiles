@@ -14,8 +14,7 @@ nvm alias default stable
 # Globally install with npm
 
 packages=(
-    http-server
-    react-native-cli
+    rollup
     speed-test
     svgo
     webpack

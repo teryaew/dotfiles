@@ -12,6 +12,7 @@ brew upgrade
 apps=(
     battery
     bramstein/webfonttools/woff2
+    chromedriver
     coreutils
     dockutil
     elasticsearch

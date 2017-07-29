@@ -17,6 +17,7 @@ apps=(
     dockutil
     elasticsearch
     elixir
+    elm
     erlang
     ffmpeg
     fontforge

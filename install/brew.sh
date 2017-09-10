@@ -5,7 +5,8 @@ brew tap homebrew/versions
 brew tap homebrew/dupes
 brew tap Goles/battery
 brew update
-brew upgrade
+brew upgrade --cleanup
+brew prune
 
 # Install packages
 

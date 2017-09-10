@@ -7,6 +7,7 @@ brew tap caskroom/versions
 # Install packages
 
 apps=(
+    adobe-creative-cloud-cleaner-tool
     android-studio
     appcleaner
     atom

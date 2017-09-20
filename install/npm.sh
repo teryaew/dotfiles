@@ -14,7 +14,7 @@ nvm alias default stable
 # Globally install with npm
 
 packages=(
-    rollup
+    lighthouse
     speed-test
     svgo
     webpack

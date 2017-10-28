@@ -24,6 +24,7 @@ apps=(
     fontforge
     gifsicle
     git
+    graphicsmagick
     htop
     httpie
     imagemagick

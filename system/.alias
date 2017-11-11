@@ -19,6 +19,7 @@ alias pgq="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 # Python
 
+alias pip='pip3'
 alias python='python3'
 
 # Miscellaneous

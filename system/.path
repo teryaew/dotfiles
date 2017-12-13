@@ -17,6 +17,7 @@ prepend-path "/usr/local/sbin"
 prepend-path "$HOME/.rvm/bin"
 prepend-path "$HOME/Library/Haskell/bin:$PATH"
 prepend-path "/Applications/Postgres.app/Contents/Versions/latest/bin"
+prepend-path "$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # Remove duplicates (preserving prepended items)
 # Source: http://unix.stackexchange.com/a/40755

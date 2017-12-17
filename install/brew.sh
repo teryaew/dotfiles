@@ -12,7 +12,6 @@ brew prune
 
 apps=(
     battery
-    berkeley-db
     bramstein/webfonttools/woff2
     chromedriver
     coreutils
@@ -36,7 +35,6 @@ apps=(
     mc
     mysql
     peco
-    phantomjs
     psgrep
     python3
     shellcheck

@@ -39,6 +39,7 @@ apps=(
     python3
     shellcheck
     ssh-copy-id
+    sysbench
     tree
     ttfautohint
     vim

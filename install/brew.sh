@@ -11,6 +11,7 @@ brew prune
 # Install packages
 
 apps=(
+    ansible
     battery
     bramstein/webfonttools/woff2
     chromedriver

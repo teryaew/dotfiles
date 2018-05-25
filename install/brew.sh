@@ -16,6 +16,7 @@ apps=(
     bramstein/webfonttools/woff2
     chromedriver
     coreutils
+    dep
     dockutil
     elasticsearch
     elixir

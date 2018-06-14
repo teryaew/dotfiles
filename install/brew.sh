@@ -38,6 +38,7 @@ apps=(
     mysql
     peco
     psgrep
+    pv
     python3
     shellcheck
     ssh-copy-id

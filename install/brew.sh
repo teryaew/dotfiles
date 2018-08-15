@@ -18,7 +18,6 @@ apps=(
     coreutils
     dep
     dockutil
-    elasticsearch
     elixir
     elm
     erlang
@@ -46,6 +45,7 @@ apps=(
     tree
     ttfautohint
     vim
+    visual-studio-code
     watchman
     wget
     yarn

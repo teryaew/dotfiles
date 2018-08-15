@@ -17,7 +17,7 @@ packages=(
     lighthouse
     speed-test
     svgo
-    webpack
+    typescript
 )
 
 npm install -g "${packages[@]}"

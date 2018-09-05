@@ -1,12 +1,12 @@
 # Install Homebrew
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/versions
-brew tap homebrew/dupes
-brew tap Goles/battery
+
 brew update
 brew upgrade --cleanup
 brew prune
+
+brew tap Goles/battery
 
 # Install packages
 
@@ -14,7 +14,6 @@ apps=(
     ansible
     battery
     bramstein/webfonttools/woff2
-    chromedriver
     coreutils
     dep
     dockutil
@@ -45,15 +44,15 @@ apps=(
     tree
     ttfautohint
     vim
-    visual-studio-code
     watchman
     wget
     yarn
 )
 
 # Pre-install java
-brew install Caskroom/cask/java
+brew cask install java
 brew install "${apps[@]}"
+brew cleanup
 
 # Git comes with diff-highlight, but isn't in the PATH
 ln -sf "$(brew --prefix)/share/git-core/contrib/diff-highlight/diff-highlight" /usr/local/bin/diff-highlight

@@ -6,12 +6,6 @@ alias gcb="git checkout -b"
 alias gfc="git fetch && git checkout"
 alias gspsp="git stash && git pull && git stash pop"
 
-# NPM
-
-alias ni="npm install"
-alias nun="npm uninstall"
-alias nup="npm update"
-
 # PostgreSQL
 
 alias pgs="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"

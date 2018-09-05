@@ -26,12 +26,10 @@ ln -sfv "$DOTFILES_DIR/etc/.emmet" ~
 
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/zsh.sh"
-. "$DOTFILES_DIR/install/gem.sh"
 . "$DOTFILES_DIR/install/npm.sh"
-. "$DOTFILES_DIR/install/aws.sh"
-. "$DOTFILES_DIR/install/elasticsearch.sh"
+. "$DOTFILES_DIR/install/brew-cask.sh"
+. "$DOTFILES_DIR/install/gem.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
-    . "$DOTFILES_DIR/install/brew-cask.sh"
     ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 fi

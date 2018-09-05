@@ -34,6 +34,7 @@ apps=(
     maven
     mc
     mysql
+    nginx
     peco
     psgrep
     pv

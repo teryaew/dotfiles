@@ -17,14 +17,13 @@ apps=(
     coreutils
     dep
     dockutil
-    elixir
     elm
-    erlang
     ffmpeg
     fontforge
     gifsicle
     git
     go
+    gradle
     graphicsmagick
     htop
     httpie
@@ -33,7 +32,7 @@ apps=(
     mackup
     maven
     mc
-    mysql
+    micronaut
     nginx
     peco
     psgrep
@@ -45,9 +44,7 @@ apps=(
     tree
     ttfautohint
     vim
-    watchman
     wget
-    yarn
 )
 
 # Pre-install java

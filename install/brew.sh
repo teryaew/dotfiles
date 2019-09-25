@@ -44,6 +44,8 @@ apps=(
     tree
     ttfautohint
     vim
+    # Needed for `docker-machine create --driver=virtualbox`
+    virtualbox
     wget
 )
 

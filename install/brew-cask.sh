@@ -15,6 +15,8 @@ apps=(
     the-unarchiver
     torbrowser
     transmission
+    # Needed for `docker-machine create --driver=virtualbox`
+    virtualbox
     visual-studio-code
     vlc
 )
